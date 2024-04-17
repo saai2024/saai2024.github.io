@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EEDA (ايدا)</title>
+    <link>/author/</link>
+      <atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>EEDA (ايدا)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/avatar_hue28888d5658d1422bfbedef9bd80584d_60886_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>EEDA (ايدا)</title>
+      <link>/author/</link>
+    </image>
+    
+  </channel>
+</rss>
+>

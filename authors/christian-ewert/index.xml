@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christian Ewert | EEDA (ايدا)</title>
+    <link>https://eeda2023.github.io/authors/christian-ewert/</link>
+      <atom:link href="https://eeda2023.github.io/authors/christian-ewert/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christian Ewert</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eeda2023.github.io/authors/christian-ewert/avatar_hue56223b87ac164fa0327cc9b3734c27e_1930564_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Christian Ewert</title>
+      <link>https://eeda2023.github.io/authors/christian-ewert/</link>
+    </image>
+    
+  </channel>
+</rss>

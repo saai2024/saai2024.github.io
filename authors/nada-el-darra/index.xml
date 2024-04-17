@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nada El Darra | EEDA (ايدا)</title>
+    <link>https://eeda2023.github.io/authors/nada-el-darra/</link>
+      <atom:link href="https://eeda2023.github.io/authors/nada-el-darra/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nada El Darra</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eeda2023.github.io/authors/nada-el-darra/avatar_hue28888d5658d1422bfbedef9bd80584d_60886_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Nada El Darra</title>
+      <link>https://eeda2023.github.io/authors/nada-el-darra/</link>
+    </image>
+    
+  </channel>
+</rss>

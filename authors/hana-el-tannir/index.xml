@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hana El Tannir | EEDA (ايدا)</title>
+    <link>https://eeda2023.github.io/authors/hana-el-tannir/</link>
+      <atom:link href="https://eeda2023.github.io/authors/hana-el-tannir/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hana El Tannir</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eeda2023.github.io/authors/hana-el-tannir/avatar_huee51df1a15105e913e3ed6ab9a4e55c1_19557_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Hana El Tannir</title>
+      <link>https://eeda2023.github.io/authors/hana-el-tannir/</link>
+    </image>
+    
+  </channel>
+</rss>

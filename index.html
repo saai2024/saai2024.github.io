@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: December 26, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.312fa478a18a798c9270bab324760a16.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Shadi Albarqouni" />
+
+
+
+
+
+  
+
+<meta name="description" content="AI Autumn School" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://eeda2023.github.io/" />
+<link rel="canonical" href="https://eeda2023.github.io/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu01e221862338fdd07c77a2e25ea98eda_8820659_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu01e221862338fdd07c77a2e25ea98eda_8820659_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@ShadiAlbarqouni" />
+  <meta property="twitter:creator" content="@ShadiAlbarqouni" />
+<meta property="twitter:image" content="https://eeda2023.github.io/media/icon_hu01e221862338fdd07c77a2e25ea98eda_8820659_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="EEDA (ايدا)" />
+<meta property="og:url" content="https://eeda2023.github.io/" />
+<meta property="og:title" content="EEDA (ايدا)" />
+<meta property="og:description" content="AI Autumn School" /><meta property="og:image" content="https://eeda2023.github.io/media/icon_hu01e221862338fdd07c77a2e25ea98eda_8820659_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://eeda2023.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://eeda2023.github.io/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://eeda2023.github.io/",
+  "name": "albarqouni lab",
+  "logo": "https://eeda2023.github.io/media/icon_hu01e221862338fdd07c77a2e25ea98eda_8820659_192x192_fill_lanczos_center_3.png",
+  
+  
+  
+  
+  "url": "https://eeda2023.github.io/"
+}
+</script>
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="EEDA (ايدا)" />
+  
+
+  
+
+
+  
+  <title>EEDA (ايدا)</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">EEDA (ايدا)</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">EEDA (ايدا)</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/tour"><span>Photo Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+              
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://testimonial.to/eeda-autumn-school-on-ai-14-18-dec-2023/all" target="_blank" rel="noopener"><span>Testimonial</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/schedule"><span>Schedule</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/attend"><span>Attend</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people"><span>People</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/faq"><span>FAQ</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/next"><span>Next?</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-hero" class="home-section wg-hero  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+
+
+    
+      <h1 class="hero-title">Autumn School on AI</h1>
+    
+
+    
+      <div class="hero-lead"><br>
+<p>Welcome/Willkommen (de)/اهلا وسهلا (ar) to the  <strong>AI Autumn School</strong>, one of the measures of our project on affordabl<strong>E</strong> collaborativ<strong>E</strong> learning for global <strong>D</strong>igital he<strong>A</strong>lth <strong>(EEDA &ndash; ايدا)</strong>, a platform where academia meets innovation, and global collaboration sparks intellectual excellence. Through the partnership of <a href="https://albarqouni.github.io/" target="_blank" rel="noopener">Albarqouni Lab</a> at the <a href="https://www.ukbonn.de/" target="_blank" rel="noopener">University Hospital Bonn</a>, <a href="https://www.uni-bonn.de/en" target="_blank" rel="noopener">University of Bonn</a> and <a href="https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqouni-group/index.html" target="_blank" rel="noopener">Helmholtz Munich</a> in Germany and the <a href="https://www.bau.edu.lb/Faculty/Health-Sciences" target="_blank" rel="noopener">Faculty of Health Sciences</a> at <a href="https://www.bau.edu.lb/" target="_blank" rel="noopener">Beirut Arab University</a> in Lebanon, we offer an enriching educational experience that marries cutting-edge AI advancements with multi-discplines through lectures, hands-on labs, and real-world hackathon led by faculty and skilled tutors.</div>
+    
+
+    
+    
+
+    
+    
+
+  
+  
+  </div>
+  <div class="col-12 mx-auto col-md-6  hero-media">
+      
+      
+        
+        
+        
+        
+
+        
+          
+          
+            
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+
+        <img src="/media/raouche_hu4c57a3f50c0c2a1a15c14adf9c8225c2_6072607_400x0_resize_q75_lanczos.jpg" srcset="/media/raouche_hu4c57a3f50c0c2a1a15c14adf9c8225c2_6072607_1200x0_resize_q75_lanczos.jpg 1200w,/media/raouche_hu4c57a3f50c0c2a1a15c14adf9c8225c2_6072607_800x0_resize_q75_lanczos.jpg 800w,/media/raouche_hu4c57a3f50c0c2a1a15c14adf9c8225c2_6072607_400x0_resize_q75_lanczos.jpg 400w" width="2228" height="2880" alt="">
+      
+    
+  </div>
+</div>
+
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">EEDA&rsquo;s Mission</h1>
+          <p class="mt-1">Our mission revolves around three core pillars</p>
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12 col-lg-8">
+    <ul>
+<li><strong>Innovative Teaching Modules:</strong> We are dedicated to crafting <strong>teaching course modules</strong> that are not only informed by the latest AI developments but also finely tuned to the specific needs and resource limitations of low-income countries in the <strong>MENA region</strong>. The modules equip participants with essential AI skills to address healthcare challenges effectively.</li>
+<li><strong>Knowledge Transfer and Research Excellence:</strong> With participation from diverse academic backgrounds, we foster <strong>knowledge transfer</strong> and collaborative learning among approximately 100 students and graduates. Additionally, we facilitate <strong>research stays</strong> for both students and university staff between partner institutions, facilitating the exchange of expertise and practical experience.</li>
+<li><strong>Interdisciplinary AI Research:</strong> We ignite innovation through <strong>interdisciplinary research projects</strong>, focusing on Medical Imaging and Food Safety. By bringing together experts from diverse fields, we aim to develop pioneering AI solutions that address specific challenges within these domains. These projects leverage collaborative federated learning principles for decentralized healthcare data utilization.</li>
+</ul>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-features" class="home-section wg-features  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Set Your Expectations</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fab fa-python"></i></div>
+    
+    <div class="section-subheading">Python</div>
+    <p>Participants will acquire proficiency in Python, a widely used programming language in the field of artificial intelligence and machine learning</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+    
+    <div class="section-subheading">Math. &amp; Statistics</div>
+    <p>Participants will develop a strong foundation in statistics and mathematics, which are essential for understanding and working with AI and machine learning algorithms</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-brain"></i></div>
+    
+    <div class="section-subheading">Analytical Thinking</div>
+    <p>The Autumn School will enhance participants&rsquo; analytical thinking skills, which are crucial for problem-solving in AI and machine learning</p>
+  </div>
+  
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Acknowledgement</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12 col-lg-8">
+    <p>The AI Autumn School, which is part of <strong>EEDA</strong>, is funded by the <a href="https://www.daad.de/de/" target="_blank" rel="noopener"><strong>DAAD</strong></a> with funds from the <a href="https://www.auswaertiges-amt.de/de" target="_blank" rel="noopener"><strong>Federal Foreign Office.</strong></a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/DAAD_AA_hu5b6d1e6ef7410a974ef49eb884c89f0c_179671_dca9614a050f696eaeb2af5edda561dc.webp 400w,
+               /media/DAAD_AA_hu5b6d1e6ef7410a974ef49eb884c89f0c_179671_aa1e50b1f2033f69ffa225542ae8b03a.webp 760w,
+               /media/DAAD_AA_hu5b6d1e6ef7410a974ef49eb884c89f0c_179671_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/DAAD_AA_hu5b6d1e6ef7410a974ef49eb884c89f0c_179671_dca9614a050f696eaeb2af5edda561dc.webp"
+               width="760"
+               height="167"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+ <strong>Partners:</strong> <a href="https://www.uni-bonn.de/en" target="_blank" rel="noopener">University of Bonn</a>, <a href="https://www.ukbonn.de/" target="_blank" rel="noopener">University Hospital Bonn</a>, and <a href="https://www.helmholtz-munich.de/en" target="_blank" rel="noopener">Helmholtz Munich</a> in Germany and <a href="https://www.bau.edu.lb/" target="_blank" rel="noopener">Beirut Arab University</a> in Lebanon</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/partners_hud9ec9afcb668e078e005087e884d6062_213202_475ba1cee5c85c3642e3570c953fc18c.webp 400w,
+               /media/partners_hud9ec9afcb668e078e005087e884d6062_213202_4ea9034374b2ef35a1d9c563f722ffe6.webp 760w,
+               /media/partners_hud9ec9afcb668e078e005087e884d6062_213202_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/partners_hud9ec9afcb668e078e005087e884d6062_213202_475ba1cee5c85c3642e3570c953fc18c.webp"
+               width="760"
+               height="80"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+ <strong>Endorsed</strong> by the <a href="https://agya.info/" target="_blank" rel="noopener">Arab-German Young Academy of Sciences and Humanities</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/AGYA_Logo_with-Txt_en_horizontal_RGB_huad4a43d6cfe94dc6190120b77c077efb_68529_51868ee1b448995dbf243044cd45cace.webp 400w,
+               /media/AGYA_Logo_with-Txt_en_horizontal_RGB_huad4a43d6cfe94dc6190120b77c077efb_68529_67a45e42e800ba1e8b03fc691bc2bf2f.webp 760w,
+               /media/AGYA_Logo_with-Txt_en_horizontal_RGB_huad4a43d6cfe94dc6190120b77c077efb_68529_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/AGYA_Logo_with-Txt_en_horizontal_RGB_huad4a43d6cfe94dc6190120b77c077efb_68529_51868ee1b448995dbf243044cd45cace.webp"
+               width="760"
+               height="148"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Shadi Albarqouni. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.4922cd6d3d810ab587afa7cdb3851db6.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

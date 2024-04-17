@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bernd Weber | EEDA (ايدا)</title>
+    <link>https://eeda2023.github.io/authors/bernd-weber/</link>
+      <atom:link href="https://eeda2023.github.io/authors/bernd-weber/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bernd Weber</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://eeda2023.github.io/authors/bernd-weber/avatar_hu704bed2cdd2a31378f7b1b67801a6135_34118_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Bernd Weber</title>
+      <link>https://eeda2023.github.io/authors/bernd-weber/</link>
+    </image>
+    
+  </channel>
+</rss>
