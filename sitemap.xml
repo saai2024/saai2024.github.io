@@ -96,10 +96,10 @@
     <loc>https://saai2024.github.io/attend/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://saai2024.github.io/authors/</loc>
+    <loc>https://saai2024.github.io/next/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://saai2024.github.io/next/</loc>
+    <loc>https://saai2024.github.io/authors/agya-office/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://saai2024.github.io/authors/anna-lisitsyna/</loc>
@@ -172,6 +172,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://saai2024.github.io/authors/sara-alrawi/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://saai2024.github.io/authors/sarah-schaab/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://saai2024.github.io/schedule/</loc>
